@@ -6,9 +6,9 @@
 <pre>
 <strong>1. if you want to setup this project on your local machine, please follow below steps</strong>
 <strong>2. you can take a pull from github URL - </strong> </pre>
-[Click on Repo](https://github.com/rohitash-eng/angular-ngOnChnage-and-ngDocheck-demo)
+[Code Clone From Here](https://github.com/rohitash-eng/angular-custom-directive-what-is-custom-directive)
 <pre>you can check version to view this screenshort</pre>
-[Version Screenshort](https://github.com/rohitash-eng/angular-ngOnChnage-and-ngDocheck-demo/blob/main/src/assets/images/version.png)
+[Version Screenshort](https://github.com/rohitash-eng/angular-custom-directive-what-is-custom-directive/blob/main/src/assets/images/version.png)
 <pre>
 <strong>3. After cloning go to angular-custom-directive-what-is-custom-directive folder and
  install the dependencies with command `npm install`</strong>
