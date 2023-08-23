@@ -1,27 +1,38 @@
 # AngularCustomDirectiveWhatIsCustomDirective
+# how to create custom directive in angular
+# what is custom directive in angular
+# angular-custom-directive-what-is-custom-directive
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
+<pre>
+<strong>1. if you want to setup this project on your local machine, please follow below steps</strong>
+<strong>2. you can take a pull from github URL - </strong> </pre>
+[Click on Repo](https://github.com/rohitash-eng/angular-ngOnChnage-and-ngDocheck-demo)
+<pre>you can check version to view this screenshort</pre>
+[Version Screenshort](https://github.com/rohitash-eng/angular-ngOnChnage-and-ngDocheck-demo/blob/main/src/assets/images/version.png)
+<pre>
+<strong>3. After cloning go to angular-custom-directive-what-is-custom-directive folder and
+ install the dependencies with command `npm install`</strong>
 
-## Development server
+<strong>4. If you are facing some issue to install your dependencies, 
+try to run the `npm install --force` command. still not able to installed 
+then check your node and angular version</strong>
+<strong>5. If successfully installing the dependencies, you can run 
+the project `ng serve`, you can test it, you can change the code as you want</strong>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+what I did:- 
+First:-  Create the Directive:
+ng generate directive directive/my-custom-directive
 
-## Code scaffolding
+Add the Directive to Module:
+declarations: [AppComponent, MyCustomDirectiveDirective], 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+then apply the directive selector in html
+<div appMyCustomDirective>
+  Click me to change my background color!
+</div>
+directive is working
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<strong>6. Thanks!! Please suggest anything you want so I can improve</strong>
+</pre>
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
